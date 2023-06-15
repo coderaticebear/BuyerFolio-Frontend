@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-primary: #7152A2;
+  --color-secondary: #A287CA;
+  --color-teritiary: #E9DFFA;
+}
+button {
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+  width: 330px;
+  height: 55px;
+  border-radius: 30px;
+}
+.button-secondary {
+  border: none;
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button-secondary-small {
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+  width: 130px;
+  height: 30px;
+  border-radius: 7.04px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+}
