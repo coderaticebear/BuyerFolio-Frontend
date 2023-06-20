@@ -1,0 +1,173 @@
+
+.create-an-account,
+.sign-up {
+  position: absolute;
+  left: 0;
+  line-height: 1.32rem;
+}
+.sign-up {
+  top: 0;
+}
+.create-an-account {
+  top: 2.5rem;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  
+}
+.header,
+.name {
+  position: absolute;
+}
+.header {
+  top: 6rem;
+  left: 24.94rem;
+  width: 20.5rem;
+  height: 3.88rem;
+  text-align: right;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-montserrat);
+}
+.name {
+  top: 0;
+  left: 0;
+  line-height: 1.32rem;
+  font-weight: 600;
+}
+.email-input-child {
+  position: absolute;
+  top: 3rem;
+  left: 0.06rem;
+  border-radius: var(--br-3xs);
+  border: 1.5px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 44.56rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+.email-input {
+  position: absolute;
+  top: 12rem;
+  left: 24.94rem;
+  width: 44.63rem;
+  height: 6.5rem;
+}
+.password-input-child {
+  position: absolute;
+  top: 3rem;
+  left: 0.06rem;
+  border-radius: var(--br-3xs);
+  border: 1.5px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 44.56rem;
+  height: 3.5rem;
+}
+.password-input {
+  position: absolute;
+  top: 20rem;
+  left: 24.94rem;
+  width: 44.63rem;
+  height: 6.5rem;
+}
+
+
+.sign-up-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  width: 44.56rem;
+  height: 3.5rem;
+}
+.sign-up1 {
+  position: absolute;
+  top: 1.06rem;
+  left: 19.94rem;
+  line-height: 1.32rem;
+}
+.facebook-sign-up-child,
+.sign-up-button {
+  position: absolute;
+  width: 44.56rem;
+  height: 3.5rem;
+}
+.sign-up-button {
+  top: 29rem;
+  left: 25rem;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.facebook-sign-up-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: #3679ea;
+}
+.sign-up-with {
+  position: absolute;
+  top: 1.06rem;
+  left: 15.19rem;
+  line-height: 1.32rem;
+}
+.facebook-sign-up,
+.google-sign-up-child {
+  position: absolute;
+  left: 0;
+  width: 44.56rem;
+  height: 3.5rem;
+}
+.facebook-sign-up {
+  top: 2.56rem;
+}
+.google-sign-up-child {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: #cc5542;
+}
+.sign-up-with1 {
+  position: absolute;
+  top: 1.06rem;
+  left: 16.06rem;
+  line-height: 1.32rem;
+}
+.google-sign-up {
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  width: 44.56rem;
+  height: 3.5rem;
+}
+.or-log-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-mini);
+  line-height: 1.32rem;
+  color: var(--color-black);
+  text-align: right;
+}
+.social-sign-up-section {
+  position: absolute;
+  top: 34.5rem;
+  left: 25rem;
+  width: 44.56rem;
+  height: 12.5rem;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.login-page {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 46.38rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-200);
+  font-family: var(--font-open-sans);
+}
+button{
+  cursor: pointer;
+}
+
