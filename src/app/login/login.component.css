@@ -20,7 +20,7 @@
   position: absolute;
 }
 .header {
-  top: 6rem;
+  top: 4rem;
   left: 24.94rem;
   width: 20.5rem;
   height: 3.88rem;
@@ -47,7 +47,7 @@
 }
 .email-input {
   position: absolute;
-  top: 12rem;
+  top: 10rem;
   left: 24.94rem;
   width: 44.63rem;
   height: 6.5rem;
@@ -64,7 +64,7 @@
 }
 .password-input {
   position: absolute;
-  top: 20rem;
+  top: 19rem;
   left: 24.94rem;
   width: 44.63rem;
   height: 6.5rem;
@@ -93,7 +93,7 @@
   height: 3.5rem;
 }
 .sign-up-button {
-  top: 29rem;
+  top: 28rem;
   left: 25rem;
   font-size: var(--font-size-xl);
   color: var(--white);
@@ -149,7 +149,7 @@
 }
 .social-sign-up-section {
   position: absolute;
-  top: 34.5rem;
+  top: 33rem;
   left: 25rem;
   width: 44.56rem;
   height: 12.5rem;
