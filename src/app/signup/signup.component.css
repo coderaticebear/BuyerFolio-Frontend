@@ -19,7 +19,7 @@
   position: absolute;
 }
 .header {
-  top: 6rem;
+  top: 4rem;
   left: 24.94rem;
   width: 18.69rem;
   height: 3.88rem;
@@ -46,7 +46,7 @@
 }
 .name-input {
   position: absolute;
-  top: 12rem;
+  top: 10rem;
   left: 24.94rem;
   width: 44.63rem;
   height: 6.5rem;
@@ -63,7 +63,7 @@
 }
 .email-input {
   position: absolute;
-  top: 22rem;
+  top: 19rem;
   left: 24.94rem;
   width: 44.63rem;
   height: 6.5rem;
@@ -90,7 +90,7 @@
   height: 3.5rem;
 }
 .sign-up-button {
-  top: 31rem;
+  top: 28rem;
   left: 25rem;
   font-size: var(--font-size-xl);
   color: var(--white);
@@ -130,7 +130,7 @@
 }
 .google-sign-up {
   position: absolute;
-  top: 9rem;
+  top: 8rem;
   left: 0;
   width: 44.56rem;
   height: 3.5rem;
@@ -146,7 +146,7 @@
 }
 .social-sign-up-section {
   position: absolute;
-  top: 38.5rem;
+  top: 33rem;
   left: 25rem;
   width: 44.56rem;
   height: 12.5rem;
@@ -157,7 +157,7 @@
   position: relative;
   background-color: var(--white);
   width: 100%;
-  height: 61.38rem;
+  height: 46.38rem;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-mini);
