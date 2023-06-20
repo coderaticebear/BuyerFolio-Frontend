@@ -1,13 +1,18 @@
 
 .create-an-account,
-.sign-up {
+.login {
   position: absolute;
   left: 0;
   line-height: 1.32rem;
 }
-.sign-up {
+.login {
   top: 0;
 }
+
+.login {
+    position: absolute;
+    line-height: 1.32rem;
+  }
 .create-an-account {
   top: 2.5rem;
   font-size: var(--font-size-mini);
@@ -15,6 +20,7 @@
   color: var(--color-black);
   
 }
+
 .header,
 .name {
   position: absolute;
@@ -71,7 +77,7 @@
 }
 
 
-.sign-up-button-child {
+.login-button-child {
   position: absolute;
   top: 0;
   left: 0;
@@ -80,58 +86,53 @@
   width: 44.56rem;
   height: 3.5rem;
 }
-.sign-up1 {
-  position: absolute;
-  top: 1.06rem;
-  left: 19.94rem;
-  line-height: 1.32rem;
-}
-.facebook-sign-up-child,
-.sign-up-button {
+
+.facebook-slogin-child,
+.login-button {
   position: absolute;
   width: 44.56rem;
   height: 3.5rem;
 }
-.sign-up-button {
+.login-button {
   top: 28rem;
   left: 25rem;
   font-size: var(--font-size-xl);
   color: var(--white);
 }
-.facebook-sign-up-child {
+.facebook-login-child {
   top: 0;
   left: 0;
   border-radius: var(--br-3xs);
   background-color: #3679ea;
 }
-.sign-up-with {
+.login-with {
   position: absolute;
   top: 1.06rem;
   left: 15.19rem;
   line-height: 1.32rem;
 }
-.facebook-sign-up,
-.google-sign-up-child {
+.facebook-login,
+.google-login-child {
   position: absolute;
   left: 0;
   width: 44.56rem;
   height: 3.5rem;
 }
-.facebook-sign-up {
+.facebook-login{
   top: 2.56rem;
 }
-.google-sign-up-child {
+.google-login-child {
   top: 0;
   border-radius: var(--br-3xs);
   background-color: #cc5542;
 }
-.sign-up-with1 {
+.login-with1 {
   position: absolute;
   top: 1.06rem;
   left: 16.06rem;
   line-height: 1.32rem;
 }
-.google-sign-up {
+.google-login {
   position: absolute;
   top: 8rem;
   left: 0;
@@ -147,7 +148,7 @@
   color: var(--color-black);
   text-align: right;
 }
-.social-sign-up-section {
+.social-login-section {
   position: absolute;
   top: 33rem;
   left: 25rem;
