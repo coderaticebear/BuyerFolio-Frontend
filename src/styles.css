@@ -1,8 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 :root {
-  --color-primary: #7152A2;
-  --color-secondary: #A287CA;
-  --color-teritiary: #E9DFFA;
+  --color-primary: #7152a2;
+  --color-secondary: #a287ca;
+  --color-teritiary: #e9dffa;
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-montserrat: Montserrat;
+  --font-work-sans: "Work Sans";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-mini: 0.94rem;
+  --font-size-xl: 1.25rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-lg: 1.13rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-sm: 0.88rem;
+  --font-size-base: 1rem;
+  --font-size-6xl: 1.56rem;
+  --font-size-41xl: 3.75rem;
+  --font-size-16xl: 2.19rem;
+  --font-size-31xl: 3.13rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-8xl: 1.69rem;
+
+  /* Colors */
+  --white: #fff;
+  --color-black: #000;
+  --color-darkslateblue: #7152a2;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gray-100: #7e7e7e;
+  --color-gray-200: #181818;
+  --color-gray-300: #101623;
+  --color-dimgray-100: #707070;
+  --color-dimgray-200: #626262;
+  --color-thistle: #bdb0d0;
+  --color-ghostwhite: #eeeef5;
+  --color-whitesmoke: #f5f5f5;
+  --color-darkslategray: #333;
+  --color-slategray: #6c7985;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
 }
 button {
   border: none;
@@ -29,4 +82,7 @@ button {
   height: 30px;
   border-radius: 7.04px;
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
 }
